@@ -65,7 +65,7 @@ init([]) ->
     }.
 children()->
     [
-     ?CHILD(common,worker),
+    % ?CHILD(common,worker),
      ?CHILD(syslog,worker)
     ].
 %% ====================================================================

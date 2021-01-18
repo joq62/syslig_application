@@ -4,8 +4,8 @@
 [{description, "syslog " },
 {vsn, "1.0.0" },
 {modules, 
-	  [syslog_app,syslog_sup,syslog,common]},
-{registered,[syslog,common]},
+	  [syslog_app,syslog_sup,syslog]},
+{registered,[syslog]},
 {applications, [kernel,stdlib]},
 {mod, {syslog_app,[]}},
 {start_phases, []}

@@ -4,7 +4,7 @@ all:
 	rm -rf *_specs *_config *.log;
 #	Dependencies
 #	Common service
-	erlc -o ebin ../../services/common_src/src/*.erl;
+#	erlc -o ebin ../../services/common_src/src/*.erl;
 #	Syslog service
 	erlc -o ebin ../../services/log_src/src/*.erl;
 #	Master application
